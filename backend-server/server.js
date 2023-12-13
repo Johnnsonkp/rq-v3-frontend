@@ -13,10 +13,8 @@ const PORT = 5000;
 const HOST = "localhost";
 
 const notion = new Client({
-  //   auth: "secret_1HYisxvUHTHXvXzIpcimTnXSOKL23DNneJDMu6JeAui",
   auth: process.env.NOTION_SECRET,
 });
-// const databaseId = "2eaeaa3f7185407098fa064789e28cd0";
 const databaseId = process.env.NOTION_DATABASE_ID;
 
 app.get("/fetchNotionData", jsonParser, async (req, res) => {
