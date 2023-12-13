@@ -121,5 +121,5 @@ app.post("/submitFormToNotion", jsonParser, async (req, res) => {
 });
 
 app.listen(PORT, HOST, () => {
-  console.log(`Starting proxy at ${HOST} : ${PORT}`);
+  console.log(`Startingg proxy at ${HOST} : ${PORT}`);
 });
