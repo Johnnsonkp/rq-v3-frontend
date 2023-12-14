@@ -1,0 +1,77 @@
+[
+    {
+      "question": "What are the features of React?",
+      "correct_answer": "JSX, Components, Virtual DOM, One-way data-binding, High performance"
+    },
+    {
+      "question": "What is JSX?",
+      "correct_answer": "JSX is a syntax extension of JavaScript. It is used with React to describe what the user interface should look like. By using JSX, we can write HTML structures in the same file that contains JavaScript code."
+    },
+    {
+      "question": "What is the virtual DOM?",
+      "correct_answer": "DOM stands for Document Object Model. The DOM represents an HTML document with a logical tree structure. Each branch of the tree ends in a node, and each node contains objects. React keeps a lightweight representation of the real DOM in the memory, and that is known as the virtual DOM. When the state of an object changes, the virtual DOM changes only that object in the real DOM, rather than updating all the objects."
+    },
+    {
+      "question": "Why use React instead of other frameworks, like Angular?",
+      "correct_answer": "Easy creation of dynamic applications, Improved performance, Reusable components, Unidirectional data flow, Dedicated tools for easy debugging"
+    },
+    {
+      "question": "How do you create a React app?",
+      "correct_answer": "Install NodeJS on the computer because we need npm to install the React library, Install the create-react-app package using the command prompt or terminal, Install a text editor of your choice, like VS Code or Sublime Text, npx create-react-app"
+    },
+    {
+      "question": "What is an event in React?",
+      "correct_answer": "An event is an action that a user or system may trigger, such as pressing a key, a mouse click, etc. React events are named using camelCase, rather than lowercase in HTML, With JSX, you pass a function as the event handler, rather than a string in HTML"
+    },
+    {
+      "question": "What are synthetic events in React?",
+      "correct_answer": "Synthetic events combine the response of different browser's native events into one API, ensuring that the events are consistent across different browsers, The application is consistent regardless of the browser it is running in. Here, preventDefault is a synthetic event."
+    },
+    {
+      "question": "Why is there a need for using keys in Lists?",
+      "correct_answer": "A key is a unique identifier and it is used to identify which items have changed, been updated or deleted from the lists, It also helps to determine which components need to be re-rendered instead of re-rendering all the components every time. Therefore, it increases performance, as only the updated components are re-rendered"
+    },
+    {
+      "question": "What is an arrow function and how is it used in React?",
+      "correct_answer": "An arrow function is a short way of writing a function to React. It is unnecessary to bind ‘this’ inside the constructor when using an arrow function. This prevents bugs caused by the use of ‘this’ in React callbacks."
+    },
+    {
+      "question": "What are the components in React?",
+      "correct_answer": "Components are the building blocks of any React application, and a single app usually consists of multiple components. A component is essentially a piece of the user interface. It splits the user interface into independent, reusable parts that can be processed separately."
+    },
+    {
+      "question": "Types of components in React?",
+      "correct_answer": "Functional Components: These types of components have no state of their own and only contain render methods, and therefore are also called stateless components. They may derive data from other components as props (properties). Class Components: These types of components can hold and manage their own state and have a separate render method to return JSX on the screen. They are also called Stateful components as they can have a state."
+    },
+    {
+      "question": "What is a state in React?",
+      "correct_answer": "The state is a built-in React object that is used to contain data or information about the component. The state in a component can change over time, and whenever it changes, the component re-renders. The change in state can happen as a response to user action or system-generated events. It determines the behavior of the component and how it will render."
+    },
+    {
+      "question": "How do you update the state of a component?",
+      "correct_answer": "We can update the state of a component by using the built-in ‘setState()’ method:"
+    },
+    {
+      "question": "What are props in React?",
+      "correct_answer": "Props are short for Properties. It is a React built-in object that stores the value of attributes of a tag and works similarly to HTML attributes. Props provide a way to pass data from one component to another component. Props are passed to the component in the same way as arguments are passed in a function."
+    }, 
+    {
+      "question": "How does Jest work",
+      "correct_answer": "Jest uses a global test method with two arguements; string description - which describes what the test is testing for, and test function - which is an assertion used to check if the test passes or fails based on the test requriments."
+    },
+    {
+      "question": "What is Jest",
+      "correct_answer": "Jest is a test runner that comes with create-react-app. Jest is used along side react testing library to run tests for the vitual DOM"
+    },
+    {
+      "question": "What does React testing library do",
+      "correct_answer": "It creates a virtual DOM for testing, provides the utilities for interacting with the DOM, allows testing without a broswer, react testing library encourages functional testing as oppose to testing the code itself"
+    },
+    {
+      "question": "Types of tests",
+      "correct_answer": "Unit tests - which test one unit of the code in isolation, Intergration tests - test how multiple units work together (i.e the interaction between components), Functional tests - test the particular function/behaviour of a software and E2E acceptance tests - which runs end to end test and reuqires the browser and the server to run the tests."
+    }
+
+
+
+  ]
